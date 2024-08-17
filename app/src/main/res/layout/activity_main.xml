@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg_blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    <Button
+        android:id="@+id/btnPlayOffline"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:text="Play Offline"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="@color/textview_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+
+    <Button
+        android:id="@+id/btnCreateGameOnline"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:text="Create Game Online"
+        android:layout_marginTop="60dp"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="@color/textview_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:hint="Enter Game Id"
+        android:id="@+id/etGameId"
+        />
+    <Button
+        android:id="@+id/btnJoinGameOnline"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:text="Join Game Online"
+        android:padding="8dp"/>
+</LinearLayout>

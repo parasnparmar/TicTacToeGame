@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/bg_blue"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/textview_color"
+        android:background="@drawable/textview_background"
+        />
+
+    <TextView
+        android:id="@+id/txtGameStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Not Started"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"
+        android:letterSpacing="0.04"
+        android:layout_gravity="center"
+        android:textColor="@color/textview_color"
+        android:background="@drawable/textview_background"
+        android:padding="16dp"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginBottom="32dp">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="0" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="1" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="2" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="3" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="4" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="5" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="6" />
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="7" />
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="8dp"
+            android:textSize="36sp"
+            android:backgroundTint="@color/button_color"
+            android:textColor="@color/white"
+            android:tag="8" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:text="Start Game"
+        android:textSize="18sp"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:padding="12dp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
